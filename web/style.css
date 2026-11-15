@@ -1,0 +1,189 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: #f4f4f4;
+    color: #222;
+}
+
+header
+{
+    background: #2b6c4f;
+    color: white;
+    padding: 10px 20px;
+}
+
+header h1
+{
+    margin: 0 0 8px 0;
+    font-size: 22px;
+}
+
+nav button
+{
+    background: #3f8a67;
+    color: white;
+    border: none;
+    padding: 7px 12px;
+    margin: 2px 2px 2px 0;
+    cursor: pointer;
+}
+
+nav button.active
+{
+    background: white;
+    color: #2b6c4f;
+}
+
+main
+{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#message
+{
+    max-width: 1000px;
+    margin: 10px auto 0 auto;
+    padding: 0 15px;
+}
+
+#message div
+{
+    padding: 8px 12px;
+}
+
+.error
+{
+    background: #fde2e2;
+    color: #a00000;
+}
+
+.info
+{
+    background: #dff3e6;
+    color: #1d5a3a;
+}
+
+#panel
+{
+    background: white;
+    border: 2px solid #2b6c4f;
+    padding: 12px;
+    margin-bottom: 15px;
+    display: none;
+}
+
+.card
+{
+    background: white;
+    padding: 12px;
+    margin-bottom: 15px;
+}
+
+h2, h3
+{
+    margin-top: 0;
+}
+
+.boxes
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.box
+{
+    background: white;
+    padding: 12px 18px;
+    min-width: 150px;
+}
+
+.box span
+{
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.green
+{
+    color: #1d7a46;
+}
+
+.red
+{
+    color: #b52a2a;
+}
+
+table
+{
+    border-collapse: collapse;
+    width: 100%;
+    background: white;
+}
+
+th, td
+{
+    border: 1px solid #ccc;
+    padding: 6px 8px;
+    text-align: left;
+    font-size: 14px;
+}
+
+th
+{
+    background: #e8e8e8;
+}
+
+tr.deleted td
+{
+    color: #888;
+    text-decoration: line-through;
+}
+
+label
+{
+    display: inline-block;
+    margin: 4px 10px 4px 0;
+    font-size: 14px;
+}
+
+input, select, textarea
+{
+    padding: 5px;
+    font-size: 14px;
+}
+
+button
+{
+    padding: 5px 10px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.row
+{
+    margin: 3px 0;
+}
+
+.valueBox
+{
+    width: 90px;
+}
+
+.small
+{
+    font-size: 13px;
+    color: #555;
+}
+
+a.link
+{
+    color: #1c5d9c;
+    cursor: pointer;
+    text-decoration: underline;
+}

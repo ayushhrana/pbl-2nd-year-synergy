@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PBL Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>PBL Project</h1>
+        <nav id="nav">
+            <button id="nav-dashboard" onclick="go('dashboard')">Dashboard</button>
+            <button id="nav-expenses" onclick="go('expenses')">My Expenses</button>
+            <button id="nav-groups" onclick="go('groups')">Groups</button>
+            <button id="nav-friends" onclick="go('friends')">Friends</button>
+            <button id="nav-analytics" onclick="go('analytics')">Analytics</button>
+            <button id="nav-calendar" onclick="go('calendar')">Calendar</button>
+            <button id="nav-recurring" onclick="go('recurring')">Recurring</button>
+            <button id="nav-activity" onclick="go('activity')">Activity</button>
+        </nav>
+    </header>
+
+    <div id="message"></div>
+
+    <main>
+        <div id="panel"></div>
+        <div id="content"></div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
