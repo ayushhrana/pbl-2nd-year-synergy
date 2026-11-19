@@ -7,7 +7,7 @@ using namespace std;
 namespace expense_tracker
 {
 
-// debts[(a, b)] = how much a owes to b (before joining the two directions)
+// this debts[(a, b)] = how much a owes to b (before joining the two directions)
 map<pair<int, int>, long long> DebtCalculator::collectDebts(int groupId) const
 {
     map<pair<int, int>, long long> debts;
