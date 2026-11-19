@@ -7,7 +7,6 @@ using namespace std;
 
 namespace expense_tracker
 {
-
 void FilterCriteria::check() const
 {
     if (useDates && from > to)
@@ -20,7 +19,7 @@ void FilterCriteria::check() const
     }
 }
 
-// an expense must match every filter that is switched on
+//( type of description ) an expense must match every filter that is switched on
 bool FilterCriteria::matches(const Expense& expense) const
 {
     if (useCategory && !isSameText(expense.getCategory(), category))
